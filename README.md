@@ -1,6 +1,6 @@
 # Hospital-Management-System
 "A comprehensive Hospital Management System to automate clinical, financial, and administrative workflows. Built to improve healthcare service delivery and data management."
-
+ # Overview
 <img width="1454" height="814" alt="Screenshot 2026-04-18 120255" src="https://github.com/user-attachments/assets/ddd1c608-891a-424f-8ff3-a600f770e52a" />
 
 Page 1 — Home (Hospital Overview)
@@ -23,3 +23,53 @@ Cash: 168K
 
 Appointment By Month (vertical bar chart) — Monthly appointment trends throughout the year. April had the highest (25), September the lowest (11).
 Experience By Patients (line chart) — Shows patient count based on doctor experience years. There is a sharp spike at year 29 (59 patients), suggesting patients strongly prefer very experienced doctors.
+
+# Product
+
+<img width="1455" height="827" alt="Screenshot 2026-04-18 120317" src="https://github.com/user-attachments/assets/676aa6fb-1031-4521-81f1-0044d5f8e3b8" />
+
+Page 2 — Finance Evaluation
+This page focuses on financial performance and cost analysis.
+KPI Cards:
+
+50 — Total unique patients
+4.97K — Maximum single appointment cost
+534.03 — Minimum/lowest appointment cost
+10 — Number of hospital branches
+
+Charts:
+Top Patients By Cost (vertical bar) — The 5 highest-spending patients:
+Michael Taylor (49K), Michael Wilson (43K), Laura Davis (41K), David Wilson (37K), David Moore (24K)
+Sum of Amount by Payment Status (pie chart) — Shows payment completion status:
+
+Failed: 193.21K
+Pending: 184.61K
+Paid: 173.42K
+
+Top Doctors By Cost (horizontal bar) — Doctors who generated the most revenue:
+Sarah Taylor (83K), Alex Davis (70K), David Taylor (67K), Jane Davis (60K), Linda Brown (53K)
+Doctor Cost Summary Table — Detailed breakdown per doctor with Total Cost, Max, Min, and Average — grand total across all doctors is 551,249.85.
+
+
+#Over All
+
+<img width="1455" height="803" alt="Screenshot 2026-04-18 120328" src="https://github.com/user-attachments/assets/991c417e-ab81-4d61-bb62-762c44e7abd0" />
+
+Page 3 — Patient Insights
+This page shows individual patient-level data.
+KPI Cards:
+
+50 total patients
+551,249 total cost
+2,756 average cost per patient
+
+Patient Details Table — Every patient listed with:
+
+Full name
+Birth year (ranging from 1950 to 2003)
+Contact number
+Their personal total cost, average cost, max and min appointment costs
+
+Top spender is David Smith (62,918.04), followed by Emily Jones (40,363.01) and Alex Moore (35,841.24). The grand total row at the bottom shows the complete hospital-wide summary.
+
+This dashboard essentially covers three perspectives — operational (Page 1), financial (Page 2), and patient-level (Page 3) — giving hospital management a complete picture of performance.
